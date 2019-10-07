@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4683799943436284766
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4683799943436284764}
+  - component: {fileID: 4683799943436284767}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4683799943436284764
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4683799943436284766}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4683799943436284767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4683799943436284766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a90efb682b29921429f0040ca00c812f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  riser: {fileID: 0}
+  announcerClip:
+  - {fileID: 8300000, guid: 3c9464826bd94b546b62f2352ede418d, type: 3}
+  - {fileID: 8300000, guid: 3c9464826bd94b546b62f2352ede418d, type: 3}
+  headSpawnClip:
+  - {fileID: 8300000, guid: 9ff94d2f86f04774ebaba38bcd5b7e87, type: 3}
+  - {fileID: 8300000, guid: 288c4cb6ab9e346459e03c001d8812ad, type: 3}
+  - {fileID: 8300000, guid: af0d042d9699e0e499414dab5644f6e5, type: 3}
+  gameLostClip: {fileID: 8300000, guid: d35b7c4bdf7ff7241993e2ed5180a40e, type: 3}
+  score: 0
+  scoreMilestones: 10270000204e000050c3000080380100a0860100c0d4010010980200400d030090d00300e0930400
+  speedChanger: {fileID: 0}
+  ballPrefab: {fileID: 4247790147616847620, guid: b3b6c97e4875aeb40828e71504d6054e,
+    type: 3}
+  countDownObject: {fileID: 0}
+  scoreText: {fileID: 0}
+  bouncesText: {fileID: 0}
+  speedMultiplierText: {fileID: 0}
+  playerPortraits:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  textAnimators:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  pressSpaceToStartObject: {fileID: 0}
+  playerObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  onScreenPopups:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  highScoreManager: {fileID: 0}
+  itemSpawnSettings:
+  - itemPrefab: {fileID: 5423797104720720598, guid: 27d3c1cea26587845a8c258ac1588dbc,
+      type: 3}
+    spawnAfterScore: 0
+    spawnInterval: 7
+    spawnScoreInterval: 0
+  - itemPrefab: {fileID: 6189993097466324391, guid: 1c0f6c24d0371f14b90b674f9c4591fa,
+      type: 3}
+    spawnAfterScore: 0
+    spawnInterval: 10
+    spawnScoreInterval: 0
+  - itemPrefab: {fileID: 2067065993895973711, guid: da04d72e80b69224f8ef9711228ed5d2,
+      type: 3}
+    spawnAfterScore: 0
+    spawnInterval: 12
+    spawnScoreInterval: 0
+  - itemPrefab: {fileID: 7072360302527650025, guid: b9d79c431e3898f478d8bae13ee741ca,
+      type: 3}
+    spawnAfterScore: 0
+    spawnInterval: 25
+    spawnScoreInterval: 0
